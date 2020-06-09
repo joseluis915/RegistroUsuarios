@@ -32,5 +32,14 @@ namespace RegistroUsuarios
         {
             Close();
         }
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void UsuarioMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            rUsuarios rUsuarios = new rUsuarios();
+            rUsuarios.Show();
+        }
     }
 }

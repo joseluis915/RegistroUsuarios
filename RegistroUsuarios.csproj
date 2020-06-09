@@ -19,6 +19,7 @@
     <None Remove="Resources\Entrar.png" />
     <None Remove="Resources\Fecha.png" />
     <None Remove="Resources\Guardar.png" />
+    <None Remove="Resources\Home.png" />
     <None Remove="Resources\Limpiar.png" />
     <None Remove="Resources\Lista.png" />
     <None Remove="Resources\Mas.png" />
@@ -50,6 +51,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\Guardar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Home.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\Limpiar.png">
