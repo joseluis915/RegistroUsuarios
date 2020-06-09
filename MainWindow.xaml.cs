@@ -22,20 +22,6 @@ namespace RegistroUsuarios
         {
             InitializeComponent();
         }
-        private void Button_Click_Usuario(object sender, RoutedEventArgs e)
-        {
-            rUsuarios rUsuarios = new rUsuarios();
-            rUsuarios.Show();
-        }
-
-        private void Button_Click_Salir(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
         private void UsuarioMenuItem_Click(object sender, RoutedEventArgs e)
         {
             rUsuarios rUsuarios = new rUsuarios();

@@ -10,7 +10,7 @@
         <StackPanel>
 <!--——————————————————————————————————————————————[ MENU ITEMS ]——————————————————————————————————————————————-->
             <Menu Height="24" FontSize="15">
-                <MenuItem Header="Registros" Click="MenuItem_Click">
+                <MenuItem Header="Registros">
                     <MenuItem x:Name="UsuarioMenuItem" Click="UsuarioMenuItem_Click" Header="Registrar Usuario"/>
                 </MenuItem>
 
