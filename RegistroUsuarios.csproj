@@ -72,11 +72,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BLL\" />
-    <Folder Include="DAL\" />
-    <Folder Include="Entidades\" />
     <Folder Include="DATA\" />
-    <Folder Include="UI\" />
   </ItemGroup>
 
   <ItemGroup>

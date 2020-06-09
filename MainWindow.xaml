@@ -5,8 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegistroUsuarios"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MENU PRINCIPAL" Height="200" Width="430" WindowStartupLocation="CenterScreen" Icon="/Resources/Lista.png">
     <Grid>
-
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!--——————————————————————————————————————————————[ MENU PRINCIPAL LABEL ]——————————————————————————————————————————————-->
+            <StackPanel HorizontalAlignment="Center">
+                <Label Content="Menu Principal" FontWeight="Bold" Height="50" FontSize="26" />
+            </StackPanel>
+            <!--——————————————————————————————————————————————[ BOTON REGISTRAR USUARIO ]——————————————————————————————————————————————-->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical" Margin="0,5,30,5" HorizontalAlignment="Center">
+                    <Button Width="230" Click="Button_Click_Usuario"  Height="50" >
+                        <StackPanel Orientation="Horizontal">
+                            <Image Height="25" Source="/Resources/Crear.png"/>
+                            <Label Content="Registrar Usuario" FontSize="20" FontWeight="Bold"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <!--——————————————————————————————————————————————[ BOTON SALIR ]——————————————————————————————————————————————-->
+                <Button Click="Button_Click_Salir" Width="100" Height="50" >
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="30" Source="/Resources/Eliminar.png"/>
+                        <Label Content="Salir" FontSize="20" FontWeight="Bold"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <!--——————————————————————————————————————————————[ INFORMACION ]——————————————————————————————————————————————-->
+            <StackPanel Orientation="Horizontal" Height="25" Margin="10,10,10,0">
+                <Label Content="Creacion: 08/06/2020" FontWeight="Bold" Height="25" FontSize="11" FontStyle="Italic" Foreground="#99000000" Padding="5,5,5,5" Width="125" Margin="0,0,10,0"/>
+                <Label Content="©2020 José Luis Hernández" FontWeight="Bold" Height="25" FontSize="11" FontStyle="Italic" Foreground="#99000000" Width="154" HorizontalContentAlignment="Center" Margin="0,0,10,0"  />
+                <Label Content="Version: Beta 1.0" FontWeight="Bold" Height="25" FontSize="11" FontStyle="Italic" Foreground="#99000000" Width="97" HorizontalContentAlignment="Right"/>
+            </StackPanel>
+            <!--———————————————————————————————————————————————————————————————————————————————————————————————-->
+        </StackPanel>
     </Grid>
 </Window>

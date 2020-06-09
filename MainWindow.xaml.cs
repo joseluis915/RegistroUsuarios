@@ -12,17 +12,25 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using RegistroUsuarios.UI.Registros;
 
 namespace RegistroUsuarios
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void Button_Click_Usuario(object sender, RoutedEventArgs e)
+        {
+            rUsuarios rUsuarios = new rUsuarios();
+            rUsuarios.Show();
+        }
+
+        private void Button_Click_Salir(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
